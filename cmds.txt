@@ -1,0 +1,10 @@
+ -- BUILD CMDS --
+
+Bot1 vs Player  |   gcc main.c player1.c player2.c -o run -DPLAYER_MODE
+Bot1 vs Bot2    |   gcc main.c player1.c player2.c -o run
+
+ -- EXTRA ARGS --
+ 
+-DNOPAUSE       |   Disable the pause (until the player hits the ENTER key) at the end of each action
+
+ ----------------
