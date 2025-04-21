@@ -153,7 +153,7 @@ int main() {
           }
         case ACTION_ShootOther:
           if (bullets[currentIndex] == BULLET_Live) {
-            player == 0 ? --p1.lives : --p2.lives;
+            player == 0 ? --p2.lives : --p1.lives;
             if (!skipOpponentFlag) {
               player = !player;
             }
